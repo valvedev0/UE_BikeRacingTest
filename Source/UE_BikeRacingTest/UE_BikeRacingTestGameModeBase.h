@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "BikePawn.h"
 #include "UE_BikeRacingTestGameModeBase.generated.h"
 
 /**
@@ -14,4 +15,8 @@ class UE_BIKERACINGTEST_API AUE_BikeRacingTestGameModeBase : public AGameModeBas
 {
 	GENERATED_BODY()
 	
+public:
+
+	AUE_BikeRacingTestGameModeBase();
+   
 };

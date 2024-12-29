@@ -3,3 +3,9 @@
 
 #include "UE_BikeRacingTestGameModeBase.h"
 
+
+
+AUE_BikeRacingTestGameModeBase::AUE_BikeRacingTestGameModeBase()
+{
+	DefaultPawnClass = ABikePawn::StaticClass();
+}
